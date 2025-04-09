@@ -48,6 +48,6 @@ public class GameDirector : MonoBehaviour
        this.timerText.GetComponent<TextMeshProUGUI>().text=
        this.time.ToString("F1"); 
        this.pointText.GetComponent<TextMeshProUGUI>().text=
-       this.point.ToString() + " point" ; 
+       this.point.ToString() + " Point" ; 
     }
 }
